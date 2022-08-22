@@ -1,28 +1,28 @@
-Aug 21, 2022 2:02:47 PM reposense.parser.CsvParser validateHeader
+Aug 22, 2022 1:49:53 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Standalone Config,  Repository's Location,  Branch,  Shallow Cloning,  File formats,  Ignore Glob List,  Ignore Authors List,  Find Previous Authors,  Ignore Commits List
-Aug 21, 2022 2:02:47 PM reposense.parser.CsvParser validateHeader
+Aug 22, 2022 1:49:53 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-Aug 21, 2022 2:02:47 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Aug 22, 2022 1:49:53 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gitpancaked found. The alias will belong to the last author - gitpancaked
-Aug 21, 2022 2:02:47 PM reposense.model.AuthorConfiguration checkDuplicateAliases
+Aug 22, 2022 1:49:53 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias gitpancaked found. The alias will belong to the last author - gitpancaked
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AaaaaronC/ip.git...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/matthewphua/ip.git...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/kaseykwok/ip.git...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/redders7/ip.git...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/redders7/ip.git to complete...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/kaseykwok/ip.git to complete...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AaaaaronC/ip.git to complete...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:53 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/matthewphua/ip.git to complete...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "AaaaaronC/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/AaaaaronC/ip.git' 'repos/AaaaaronC_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/AaaaaronC_ip/ip_bare'...
@@ -38,11 +38,11 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Frank-HP-Chang/ip.git...
-Aug 21, 2022 2:02:47 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Frank-HP-Chang/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "Frank-HP-Chang/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/Frank-HP-Chang/ip.git' 'repos/Frank-HP-Chang_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/Frank-HP-Chang_ip/ip_bare'...
@@ -58,41 +58,41 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/FeliciaBeatrice/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/FeliciaBeatrice/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/matthewphua/ip.git completed!
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/redders7/ip.git completed!
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/kaseykwok/ip.git completed!
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Franky4566/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/72] Analyzing https://github.com/matthewphua/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/deenliong/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/72] Analyzing https://github.com/redders7/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/wcwy/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Franky4566/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/deenliong/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/wcwy/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/redders7/ip.git completed!
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/72] Analyzing https://github.com/redders7/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/deenliong/ip.git...
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/matthewphua/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/deenliong/ip.git to complete...
+Aug 22, 2022 1:49:54 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/matthewphua/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/kaseykwok/ip.git completed!
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/redders7/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:54 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/redders7/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/wcwy/ip.git...
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/wcwy/ip.git to complete...
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "Franky4566/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/Franky4566/ip.git' 'repos/Franky4566_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/Franky4566_ip/ip_bare'...
@@ -108,9 +108,15 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/zheqis12138/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/zheqis12138/ip.git to complete...
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/matthewphua/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/redders7/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "deenliong/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/deenliong/ip.git' 'repos/deenliong_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/deenliong_ip/ip_bare'...
@@ -126,35 +132,25 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/wangtingjia/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/zheqis12138/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/wangtingjia/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/matthewphua/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/redders7/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/matthewphua/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/redders7/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/matthewphua/ip.git (master) completed!
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/redders7/ip.git (master) completed!
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/72] Analyzing https://github.com/kaseykwok/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/FeliciaBeatrice/ip.git completed!
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/joshuan98/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [4/72] Analyzing https://github.com/FeliciaBeatrice/ip.git (master)...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/joshuan98/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/matthewphua/ip.git (master) completed!
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/kaseykwok/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:54 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/kaseykwok/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "zheqis12138/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/zheqis12138/ip.git' 'repos/zheqis12138_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/zheqis12138_ip/ip_bare'...
@@ -170,21 +166,35 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/joshuan98/ip.git...
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/FeliciaBeatrice/ip.git completed!
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/joshuan98/ip.git to complete...
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/indraneelrp/ip.git...
-Aug 21, 2022 2:02:48 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/indraneelrp/ip.git to complete...
-Aug 21, 2022 2:02:48 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/kaseykwok/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:48 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/kaseykwok/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [4/72] Analyzing https://github.com/FeliciaBeatrice/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/kaseykwok/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/indraneelrp/ip.git to complete...
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/kaseykwok/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/kaseykwok/ip.git (master) completed!
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/FeliciaBeatrice/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:49 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:54 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/FeliciaBeatrice/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/FeliciaBeatrice/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/FeliciaBeatrice/ip.git (master)...
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/FeliciaBeatrice/ip.git (master) completed!
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "indraneelrp/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/indraneelrp/ip.git' 'repos/indraneelrp_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/indraneelrp_ip/ip_bare'...
@@ -200,41 +210,29 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/alfred-leong/ip.git...
-Aug 21, 2022 2:02:49 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/kaseykwok/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/alfred-leong/ip.git to complete...
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/kaseykwok/ip.git (master) completed!
-Aug 21, 2022 2:02:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/FeliciaBeatrice/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/wcwy/ip.git completed!
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [5/72] Analyzing https://github.com/wcwy/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/zoranabc201/ip.git...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:54 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/zoranabc201/ip.git to complete...
-Aug 21, 2022 2:02:49 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/FeliciaBeatrice/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/FeliciaBeatrice/ip.git (master) completed!
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/wangtingjia/ip.git completed!
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:54 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/wcwy/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:49 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:54 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/wcwy/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/gaoyunfan/ip.git...
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [6/72] Analyzing https://github.com/wangtingjia/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/gaoyunfan/ip.git to complete...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/wcwy/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/wcwy/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/wcwy/ip.git (master) completed!
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "zoranabc201/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/zoranabc201/ip.git' 'repos/zoranabc201_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/zoranabc201_ip/ip_bare'...
@@ -250,29 +248,27 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/gaoyunfan/ip.git...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/gaoyunfan/ip.git to complete...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/wangtingjia/ip.git completed!
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [6/72] Analyzing https://github.com/wangtingjia/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/insafhere/ip.git...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/insafhere/ip.git to complete...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/joshuan98/ip.git completed!
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/qianz-z/ip.git...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/qianz-z/ip.git to complete...
-Aug 21, 2022 2:02:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/wcwy/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/wcwy/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/wcwy/ip.git (master) completed!
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [7/72] Analyzing https://github.com/joshuan98/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/wangtingjia/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:49 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:55 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/wangtingjia/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/wangtingjia/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/joshuan98/ip.git completed!
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "insafhere/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/insafhere/ip.git' 'repos/insafhere_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/insafhere_ip/ip_bare'...
@@ -288,17 +284,37 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/qianz-z/ip.git...
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/wangtingjia/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/wangtingjia/ip.git (master) completed!
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/qianz-z/ip.git to complete...
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [7/72] Analyzing https://github.com/joshuan98/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/shengiv/ip.git...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/alfred-leong/ip.git completed!
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/shengiv/ip.git to complete...
-Aug 21, 2022 2:02:49 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/wangtingjia/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [8/72] Analyzing https://github.com/alfred-leong/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/jeyvia/ip.git...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/jeyvia/ip.git to complete...
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/joshuan98/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:49 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:55 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/joshuan98/ip.git (master)...
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/alfred-leong/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:55 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/alfred-leong/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "qianz-z/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/qianz-z/ip.git' 'repos/qianz-z_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/qianz-z_ip/ip_bare'...
@@ -314,35 +330,31 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:49 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/jeyvia/ip.git...
-Aug 21, 2022 2:02:50 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/wangtingjia/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/jeyvia/ip.git to complete...
-Aug 21, 2022 2:02:50 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/wangtingjia/ip.git (master) completed!
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/alfred-leong/ip.git completed!
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/chiewyx/ip.git...
-Aug 21, 2022 2:02:50 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [8/72] Analyzing https://github.com/alfred-leong/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/alfred-leong/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/chiewyx/ip.git to complete...
-Aug 21, 2022 2:02:50 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/joshuan98/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/alfred-leong/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/alfred-leong/ip.git (master) completed!
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/joshuan98/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/joshuan98/ip.git (master) completed!
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/gaoyunfan/ip.git completed!
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/sylviahe171/ip.git...
-Aug 21, 2022 2:02:50 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [9/72] Analyzing https://github.com/gaoyunfan/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/sylviahe171/ip.git...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/sylviahe171/ip.git to complete...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "chiewyx/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/chiewyx/ip.git' 'repos/chiewyx_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/chiewyx_ip/ip_bare'...
@@ -358,27 +370,21 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/chydarren/ip.git...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/sylviahe171/ip.git to complete...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/chydarren/ip.git to complete...
-Aug 21, 2022 2:02:50 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/alfred-leong/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:50 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/alfred-leong/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/alfred-leong/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/alfred-leong/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/alfred-leong/ip.git (master) completed!
-Aug 21, 2022 2:02:50 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/gaoyunfan/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:50 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:55 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/gaoyunfan/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/gaoyunfan/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/gaoyunfan/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/gaoyunfan/ip.git (master) completed!
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "sylviahe171/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/sylviahe171/ip.git' 'repos/sylviahe171_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/sylviahe171_ip/ip_bare'...
@@ -394,125 +400,119 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/pipipipi2002/ip.git...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/pipipipi2002/ip.git to complete...
-Aug 21, 2022 2:02:50 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/gaoyunfan/ip.git (master)...
-Aug 21, 2022 2:02:50 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/jeyvia/ip.git completed!
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/gaoyunfan/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/jorellesee/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [10/72] Analyzing https://github.com/jeyvia/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/gaoyunfan/ip.git (master) completed!
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/jorellesee/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/shengiv/ip.git completed!
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/karthikstar/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [11/72] Analyzing https://github.com/shengiv/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/karthikstar/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/jeyvia/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:51 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/jeyvia/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [10/72] Analyzing https://github.com/shengiv/ip.git (master)...
+Aug 22, 2022 1:49:55 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/jorellesee/ip.git...
+Aug 22, 2022 1:49:55 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/shengiv/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:51 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:55 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/shengiv/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/chydarren/ip.git completed!
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/snuckerzlol/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/snuckerzlol/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/jorellesee/ip.git to complete...
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/jeyvia/ip.git completed!
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [11/72] Analyzing https://github.com/jeyvia/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/karthikstar/ip.git...
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/karthikstar/ip.git to complete...
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/shengiv/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/shengiv/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/shengiv/ip.git (master) completed!
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [12/72] Analyzing https://github.com/chydarren/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/jeyvia/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:56 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/jeyvia/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jeyvia/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jeyvia/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jeyvia/ip.git (master) completed!
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/chydarren/ip.git completed!
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [12/72] Analyzing https://github.com/chydarren/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/snuckerzlol/ip.git...
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/snuckerzlol/ip.git to complete...
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/chydarren/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:51 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:56 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/chydarren/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/chydarren/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/chydarren/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/chydarren/ip.git (master) completed!
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/pipipipi2002/ip.git completed!
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [13/72] Analyzing https://github.com/pipipipi2002/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/eehongchan/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [13/72] Analyzing https://github.com/pipipipi2002/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/eehongchan/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/pipipipi2002/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:51 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:56 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/pipipipi2002/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/pipipipi2002/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/pipipipi2002/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/pipipipi2002/ip.git (master) completed!
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/karthikstar/ip.git completed!
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/jorellesee/ip.git completed!
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [14/72] Analyzing https://github.com/karthikstar/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Brandon-OS/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Markusteim/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [15/72] Analyzing https://github.com/jorellesee/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Markusteim/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/jorellesee/ip.git completed!
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Brandon-OS/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/jorellesee/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:51 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/jorellesee/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/pipipipi2002/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Markusteim/ip.git...
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/karthikstar/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:51 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:56 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/karthikstar/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/jorellesee/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Markusteim/ip.git to complete...
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/pipipipi2002/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/pipipipi2002/ip.git (master) completed!
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [15/72] Analyzing https://github.com/jorellesee/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/jorellesee/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:56 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/jorellesee/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/karthikstar/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/jorellesee/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/jorellesee/ip.git (master) completed!
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/jorellesee/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/karthikstar/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/karthikstar/ip.git (master) completed!
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/jorellesee/ip.git (master)...
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/jorellesee/ip.git (master) completed!
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "Brandon-OS/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/Brandon-OS/ip.git' 'repos/Brandon-OS_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/Brandon-OS_ip/ip_bare'...
@@ -528,29 +528,47 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/dhanish265/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/dhanish265/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/snuckerzlol/ip.git completed!
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:56 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [16/72] Analyzing https://github.com/snuckerzlol/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/junhaoliu2468/ip.git...
-Aug 21, 2022 2:02:51 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:56 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/junhaoliu2468/ip.git to complete...
-Aug 21, 2022 2:02:51 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/snuckerzlol/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:51 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/snuckerzlol/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/snuckerzlol/ip.git (master)...
-Aug 21, 2022 2:02:51 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/eehongchan/ip.git completed!
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Than-Duc-Huy/ip.git...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [17/72] Analyzing https://github.com/eehongchan/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/snuckerzlol/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/snuckerzlol/ip.git (master) completed!
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Than-Duc-Huy/ip.git to complete...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/eehongchan/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/eehongchan/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/eehongchan/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/eehongchan/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/eehongchan/ip.git (master) completed!
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "junhaoliu2468/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/junhaoliu2468/ip.git' 'repos/junhaoliu2468_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/junhaoliu2468_ip/ip_bare'...
@@ -566,41 +584,41 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Than-Duc-Huy/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Than-Duc-Huy/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/eehongchan/ip.git completed!
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [17/72] Analyzing https://github.com/eehongchan/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/penguin-s/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/penguin-s/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/eehongchan/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:52 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/eehongchan/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/eehongchan/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/eehongchan/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/eehongchan/ip.git (master) completed!
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Markusteim/ip.git completed!
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [18/72] Analyzing https://github.com/Markusteim/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/ThalliumRuby/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/ThalliumRuby/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/dhanish265/ip.git completed!
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Markusteim/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:52 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Markusteim/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/amitrahman1026/ip.git...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [19/72] Analyzing https://github.com/dhanish265/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/amitrahman1026/ip.git to complete...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/dhanish265/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/dhanish265/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Markusteim/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Markusteim/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Markusteim/ip.git (master) completed!
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "penguin-s/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/penguin-s/ip.git' 'repos/penguin-s_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/penguin-s_ip/ip_bare'...
@@ -616,35 +634,11 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/amitrahman1026/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/amitrahman1026/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Markusteim/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Markusteim/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Markusteim/ip.git (master) completed!
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/dhanish265/ip.git completed!
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [19/72] Analyzing https://github.com/dhanish265/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/malcolmang/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/malcolmang/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/dhanish265/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:52 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/dhanish265/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/dhanish265/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/dhanish265/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/dhanish265/ip.git (master) completed!
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "ThalliumRuby/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/ThalliumRuby/ip.git' 'repos/ThalliumRuby_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/ThalliumRuby_ip/ip_bare'...
@@ -660,67 +654,77 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Brominne/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Brominne/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/dhanish265/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/dhanish265/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/dhanish265/ip.git (master) completed!
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Than-Duc-Huy/ip.git completed!
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [20/72] Analyzing https://github.com/Than-Duc-Huy/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/nazrul0/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [20/72] Analyzing https://github.com/Than-Duc-Huy/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/nazrul0/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Than-Duc-Huy/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:52 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Than-Duc-Huy/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Than-Duc-Huy/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Than-Duc-Huy/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Than-Duc-Huy/ip.git (master) completed!
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/malcolmang/ip.git completed!
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/amitrahman1026/ip.git completed!
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [21/72] Analyzing https://github.com/amitrahman1026/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/helpdesk1234/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [21/72] Analyzing https://github.com/malcolmang/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/lcsroy/ip.git...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [22/72] Analyzing https://github.com/amitrahman1026/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/lcsroy/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/helpdesk1234/ip.git to complete...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/malcolmang/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:52 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/malcolmang/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/malcolmang/ip.git completed!
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/amitrahman1026/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:52 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/amitrahman1026/ip.git (master)...
-Aug 21, 2022 2:02:52 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [22/72] Analyzing https://github.com/malcolmang/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/lcsroy/ip.git...
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/lcsroy/ip.git to complete...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/malcolmang/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/malcolmang/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/amitrahman1026/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/amitrahman1026/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/amitrahman1026/ip.git (master) completed!
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Brominne/ip.git completed!
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [23/72] Analyzing https://github.com/Brominne/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/amitrahman1026/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/amitrahman1026/ip.git (master) completed!
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Zhai-Yuxin/ip.git...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [23/72] Analyzing https://github.com/Brominne/ip.git (master)...
+Aug 22, 2022 1:49:57 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Zhai-Yuxin/ip.git to complete...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:57 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Brominne/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:57 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Brominne/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "lcsroy/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/lcsroy/ip.git' 'repos/lcsroy_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/lcsroy_ip/ip_bare'...
@@ -736,39 +740,25 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/chinhan99/ip.git...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Brominne/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:53 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Brominne/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/chinhan99/ip.git to complete...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/malcolmang/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/malcolmang/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/malcolmang/ip.git (master) completed!
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/nazrul0/ip.git completed!
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [24/72] Analyzing https://github.com/nazrul0/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/ngdeqi/ip.git...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/ngdeqi/ip.git to complete...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Brominne/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/nazrul0/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:53 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/nazrul0/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/malcolmang/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/malcolmang/ip.git (master) completed!
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Brominne/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Brominne/ip.git (master) completed!
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/nazrul0/ip.git completed!
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "chinhan99/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/chinhan99/ip.git' 'repos/chinhan99_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/chinhan99_ip/ip_bare'...
@@ -784,83 +774,95 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/ngdeqi/ip.git...
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [24/72] Analyzing https://github.com/nazrul0/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/maanyos/ip.git...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/ngdeqi/ip.git to complete...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/maanyos/ip.git to complete...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/nazrul0/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:58 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/nazrul0/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/nazrul0/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/nazrul0/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/nazrul0/ip.git (master) completed!
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/helpdesk1234/ip.git completed!
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [25/72] Analyzing https://github.com/helpdesk1234/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/cheehengk/ip.git...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/cheehengk/ip.git to complete...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/helpdesk1234/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:53 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:58 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/helpdesk1234/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/helpdesk1234/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/helpdesk1234/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/helpdesk1234/ip.git (master) completed!
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Zhai-Yuxin/ip.git completed!
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [26/72] Analyzing https://github.com/Zhai-Yuxin/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/gitpancaked/ip.git...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/gitpancaked/ip.git to complete...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Zhai-Yuxin/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:53 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:58 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Zhai-Yuxin/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Zhai-Yuxin/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Zhai-Yuxin/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Zhai-Yuxin/ip.git (master) completed!
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/maanyos/ip.git completed!
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/HT-T/ip.git...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [27/72] Analyzing https://github.com/maanyos/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/HT-T/ip.git to complete...
-Aug 21, 2022 2:02:53 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/maanyos/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:53 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/maanyos/ip.git (master)...
-Aug 21, 2022 2:02:53 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/maanyos/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/maanyos/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/ngdeqi/ip.git completed!
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/maanyos/ip.git (master) completed!
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [28/72] Analyzing https://github.com/ngdeqi/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/jjtoh/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/jjtoh/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [27/72] Analyzing https://github.com/ngdeqi/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/HT-T/ip.git...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/HT-T/ip.git to complete...
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/ngdeqi/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:54 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:58 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/ngdeqi/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/ngdeqi/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/maanyos/ip.git completed!
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/ngdeqi/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/ngdeqi/ip.git (master) completed!
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [28/72] Analyzing https://github.com/maanyos/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/jjtoh/ip.git...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/jjtoh/ip.git to complete...
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/maanyos/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:58 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/maanyos/ip.git (master)...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/cheehengk/ip.git completed!
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "HT-T/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/HT-T/ip.git' 'repos/HT-T_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/HT-T_ip/ip_bare'...
@@ -876,35 +878,35 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/NayChi-7/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/NayChi-7/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/ngdeqi/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/cheehengk/ip.git completed!
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [29/72] Analyzing https://github.com/cheehengk/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/ishitamandal06/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/ngdeqi/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/ngdeqi/ip.git (master) completed!
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/NayChi-7/ip.git to complete...
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/ishitamandal06/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:58 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/cheehengk/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:54 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:58 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/cheehengk/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:58 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/gitpancaked/ip.git completed!
+Aug 22, 2022 1:49:58 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/maanyos/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/yongjicode/ip.git...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/yongjicode/ip.git to complete...
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/maanyos/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/maanyos/ip.git (master) completed!
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/cheehengk/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/cheehengk/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/cheehengk/ip.git (master) completed!
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "ishitamandal06/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/ishitamandal06/ip.git' 'repos/ishitamandal06_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/ishitamandal06_ip/ip_bare'...
@@ -920,29 +922,27 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/yongjicode/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/yongjicode/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/gitpancaked/ip.git completed!
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [30/72] Analyzing https://github.com/gitpancaked/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/deveshl/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/deveshl/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/cheehengk/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/cheehengk/ip.git (master) completed!
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/gitpancaked/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:54 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:59 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/gitpancaked/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/gitpancaked/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/gitpancaked/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/gitpancaked/ip.git (master) completed!
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "yongjicode/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/yongjicode/ip.git' 'repos/yongjicode_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/yongjicode_ip/ip_bare'...
@@ -958,25 +958,23 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/winston-lim/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/winston-lim/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/jjtoh/ip.git completed!
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [31/72] Analyzing https://github.com/jjtoh/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/OVReader/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [31/72] Analyzing https://github.com/jjtoh/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/OVReader/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/jjtoh/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:54 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:59 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/jjtoh/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/NayChi-7/ip.git completed!
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "winston-lim/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/winston-lim/ip.git' 'repos/winston-lim_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/winston-lim_ip/ip_bare'...
@@ -992,99 +990,107 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/P0tatoChips/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/P0tatoChips/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/owenl131/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [32/72] Analyzing https://github.com/NayChi-7/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/owenl131/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/NayChi-7/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:54 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/NayChi-7/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jjtoh/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jjtoh/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jjtoh/ip.git (master) completed!
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/NayChi-7/ip.git completed!
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/owenl131/ip.git...
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [32/72] Analyzing https://github.com/NayChi-7/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/owenl131/ip.git to complete...
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/NayChi-7/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:59 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/NayChi-7/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/NayChi-7/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/NayChi-7/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/NayChi-7/ip.git (master) completed!
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/deveshl/ip.git completed!
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [33/72] Analyzing https://github.com/deveshl/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/jingwei55/ip.git...
-Aug 21, 2022 2:02:54 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/jingwei55/ip.git to complete...
-Aug 21, 2022 2:02:54 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/deveshl/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:54 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:59 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/deveshl/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/deveshl/ip.git (master)...
-Aug 21, 2022 2:02:54 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/deveshl/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/deveshl/ip.git (master) completed!
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/owenl131/ip.git completed!
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/OVReader/ip.git completed!
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/ChengYoghurt/ip.git...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [34/72] Analyzing https://github.com/owenl131/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [35/72] Analyzing https://github.com/OVReader/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [34/72] Analyzing https://github.com/OVReader/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/wilsonngja/ip.git...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/wilsonngja/ip.git to complete...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/ChengYoghurt/ip.git to complete...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/owenl131/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:55 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/owenl131/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/OVReader/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:55 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:59 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/OVReader/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/OVReader/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/OVReader/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/OVReader/ip.git (master) completed!
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/owenl131/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/P0tatoChips/ip.git completed!
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/owenl131/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/owenl131/ip.git (master) completed!
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [36/72] Analyzing https://github.com/P0tatoChips/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/ChengYoghurt/ip.git...
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [35/72] Analyzing https://github.com/P0tatoChips/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/owenl131/ip.git completed!
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/ChengYoghurt/ip.git to complete...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/nshian/ip.git...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [36/72] Analyzing https://github.com/owenl131/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/nshian/ip.git to complete...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/owenl131/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:49:59 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/owenl131/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/P0tatoChips/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:55 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:49:59 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/P0tatoChips/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/owenl131/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/P0tatoChips/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/owenl131/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/P0tatoChips/ip.git (master)...
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/P0tatoChips/ip.git (master) completed!
+Aug 22, 2022 1:49:59 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/owenl131/ip.git (master) completed!
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "ChengYoghurt/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/ChengYoghurt/ip.git' 'repos/ChengYoghurt_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/ChengYoghurt_ip/ip_bare'...
@@ -1100,71 +1106,59 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/nvknow/ip.git...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/nvknow/ip.git to complete...
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/P0tatoChips/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/P0tatoChips/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/P0tatoChips/ip.git (master) completed!
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/jingwei55/ip.git completed!
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [37/72] Analyzing https://github.com/jingwei55/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/kyrenechua/ip.git...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/kyrenechua/ip.git to complete...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/jingwei55/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:55 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:00 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/jingwei55/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/jingwei55/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/jingwei55/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/jingwei55/ip.git (master) completed!
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/wilsonngja/ip.git completed!
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [38/72] Analyzing https://github.com/wilsonngja/ip.git (master)...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/brian-vb/ip.git...
-Aug 21, 2022 2:02:55 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/brian-vb/ip.git to complete...
-Aug 21, 2022 2:02:55 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/wilsonngja/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:55 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:00 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/wilsonngja/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/wilsonngja/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/wilsonngja/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/wilsonngja/ip.git (master) completed!
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/nshian/ip.git completed!
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [39/72] Analyzing https://github.com/nshian/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/xzynos/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [39/72] Analyzing https://github.com/nshian/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/xzynos/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/nshian/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:56 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:00 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/nshian/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/nvknow/ip.git completed!
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/JordanKwua/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [40/72] Analyzing https://github.com/nvknow/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/wilsonngja/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/wilsonngja/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/wilsonngja/ip.git (master) completed!
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "brian-vb/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/brian-vb/ip.git' 'repos/brian-vb_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/brian-vb_ip/ip_bare'...
@@ -1180,65 +1174,53 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/abhityakrishnaraj/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/abhityakrishnaraj/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/JordanKwua/ip.git...
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/JordanKwua/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/nvknow/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:56 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/nvknow/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/nshian/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/nshian/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/nshian/ip.git (master) completed!
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/kyrenechua/ip.git completed!
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/nvknow/ip.git completed!
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [40/72] Analyzing https://github.com/kyrenechua/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/abhityakrishnaraj/ip.git...
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/RiaVora/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [41/72] Analyzing https://github.com/kyrenechua/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/abhityakrishnaraj/ip.git to complete...
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/RiaVora/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/nvknow/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/nshian/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/kyrenechua/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:56 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:00 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/kyrenechua/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/nvknow/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/nvknow/ip.git (master) completed!
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/nshian/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/nshian/ip.git (master) completed!
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [41/72] Analyzing https://github.com/nvknow/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/nvknow/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:50:00 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/nvknow/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/kyrenechua/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/kyrenechua/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/kyrenechua/ip.git (master) completed!
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
-WARNING: Exception met while trying to clone the repo "JordanKwua/ip[master]", will skip this repo.
-reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/JordanKwua/ip.git' 'repos/JordanKwua_ip/ip_bare' on path . :
-Cloning into bare repository 'repos/JordanKwua_ip/ip_bare'...
-fatal: could not read Username for 'https://github.com': No such device or address
-
-	at reposense.system.CommandRunnerProcess.waitForProcess(CommandRunnerProcess.java:46)
-	at reposense.report.RepoCloner.waitForCloneProcess(RepoCloner.java:323)
-	at reposense.report.RepoCloner.getClonedRepoLocation(RepoCloner.java:123)
-	at reposense.report.ReportGenerator.cloneRepo(ReportGenerator.java:263)
-	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$0(ReportGenerator.java:208)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:829)
-
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/AmethystQ/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/nvknow/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/nvknow/ip.git (master)...
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/nvknow/ip.git (master) completed!
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "abhityakrishnaraj/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/abhityakrishnaraj/ip.git' 'repos/abhityakrishnaraj_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/abhityakrishnaraj_ip/ip_bare'...
@@ -1254,13 +1236,31 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/kohnh/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AmethystQ/ip.git...
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AmethystQ/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
+WARNING: Exception met while trying to clone the repo "JordanKwua/ip[master]", will skip this repo.
+reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/JordanKwua/ip.git' 'repos/JordanKwua_ip/ip_bare' on path . :
+Cloning into bare repository 'repos/JordanKwua_ip/ip_bare'...
+fatal: could not read Username for 'https://github.com': No such device or address
+
+	at reposense.system.CommandRunnerProcess.waitForProcess(CommandRunnerProcess.java:46)
+	at reposense.report.RepoCloner.waitForCloneProcess(RepoCloner.java:323)
+	at reposense.report.RepoCloner.getClonedRepoLocation(RepoCloner.java:123)
+	at reposense.report.ReportGenerator.cloneRepo(ReportGenerator.java:263)
+	at reposense.report.ReportGenerator.lambda$cloneAndAnalyzeRepos$0(ReportGenerator.java:208)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1700)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/kohnh/ip.git...
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/kohnh/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 WARNING: Exception met while trying to clone the repo "AmethystQ/ip[master]", will skip this repo.
 reposense.system.CommandRunnerProcessException: Error returned from command git clone --bare 'https://github.com/AmethystQ/ip.git' 'repos/AmethystQ_ip/ip_bare' on path . :
 Cloning into bare repository 'repos/AmethystQ_ip/ip_bare'...
@@ -1276,85 +1276,85 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:829)
 
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/LokQiJun/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/LokQiJun/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/xzynos/ip.git completed!
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [42/72] Analyzing https://github.com/xzynos/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner spawnCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/ivanthengwr/ip.git...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:00 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/ivanthengwr/ip.git to complete...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/xzynos/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:56 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:00 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/xzynos/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/xzynos/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:50:00 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/xzynos/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:50:00 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/xzynos/ip.git (master) completed!
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:01 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/RiaVora/ip.git completed!
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [43/72] Analyzing https://github.com/RiaVora/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/kohnh/ip.git completed!
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/RiaVora/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:56 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:01 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/RiaVora/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [44/72] Analyzing https://github.com/kohnh/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/kohnh/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:56 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/kohnh/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/RiaVora/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/RiaVora/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/RiaVora/ip.git (master) completed!
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:50:01 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/kohnh/ip.git completed!
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [44/72] Analyzing https://github.com/kohnh/ip.git (master)...
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/kohnh/ip.git (master) does not contain a standalone config file.
+Aug 22, 2022 1:50:01 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/kohnh/ip.git (master)...
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/kohnh/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/kohnh/ip.git (master)...
-Aug 21, 2022 2:02:56 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/kohnh/ip.git (master) completed!
-Aug 21, 2022 2:02:57 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:01 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/LokQiJun/ip.git completed!
-Aug 21, 2022 2:02:57 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [45/72] Analyzing https://github.com/LokQiJun/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/LokQiJun/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:57 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:01 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/LokQiJun/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/LokQiJun/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/LokQiJun/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/LokQiJun/ip.git (master) completed!
-Aug 21, 2022 2:02:57 PM reposense.report.RepoCloner waitForCloneProcess
+Aug 22, 2022 1:50:01 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/ivanthengwr/ip.git completed!
-Aug 21, 2022 2:02:57 PM reposense.report.ReportGenerator analyzeRepos
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [46/72] Analyzing https://github.com/ivanthengwr/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.report.ReportGenerator updateRepoConfig
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/ivanthengwr/ip.git (master) does not contain a standalone config file.
-Aug 21, 2022 2:02:57 PM reposense.authorship.FileInfoExtractor extractTextFileInfos
+Aug 22, 2022 1:50:01 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/ivanthengwr/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/ivanthengwr/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Aug 22, 2022 1:50:01 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/ivanthengwr/ip.git (master)...
-Aug 21, 2022 2:02:57 PM reposense.report.ReportGenerator analyzeRepo
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/ivanthengwr/ip.git (master) completed!
-Aug 21, 2022 2:02:57 PM reposense.report.ReportGenerator generateReposReport
+Aug 22, 2022 1:50:01 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/ip-dashboard/ip-dashboard/reposense-report
-Aug 21, 2022 2:02:57 PM reposense.RepoSense main
-INFO: Elapsed processing time: 10.11 second(s)
+Aug 22, 2022 1:50:01 AM reposense.RepoSense main
+INFO: Elapsed processing time: 8.19 second(s)
